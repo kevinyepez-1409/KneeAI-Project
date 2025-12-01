@@ -1,0 +1,8 @@
+streamlit
+tensorflow-cpu  # O tensorflow si prefieres, pero cpu es mas ligero para demos
+numpy
+pandas
+Pillow
+matplotlib
+scikit-learn
+opencv-python-headless

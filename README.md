@@ -37,11 +37,12 @@ Due to GitHub's file size limits, the trained model files are hosted externally.
 - **Input Resolution:** 300 x 300 pixels.
 
 ## 📂 Repository Structure
-KneeAI-Project/ ├── app.py # Main Streamlit application ├── requirements.txt # Python dependencies ├── KneeOA_temp_weights.h5 # (Download externally) Grad-CAM weights ├── KneeOA_GradCAM/ # (Download & Unzip externally) Inference Model │ ├── saved_model.pb │ └── variables/ └── README.md # Project documentation
+KneeAI-Project/ ├── app.py # Main Streamlit application ├── requirements.txt # Python dependencies ├── KneeOA_temp_weights.h5 # (Download externally) ├── KneeOA_GradCAM/ # (Download & Unzip externally) Inference Model │ ├── saved_model.pb │ └── variables/ └── README.md # Project documentation
 ## 🛠️ Installation & Usage
 
 ### 1. Clone the repository
 ```bash
 git clone [https://github.com/kevinyepez-1409/KneeAI-Project.git](https://github.com/TU_USUARIO/KneeAI-Project.git)
 cd KneeAI-Project
+
 

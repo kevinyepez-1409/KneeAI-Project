@@ -44,16 +44,24 @@ KneeAI-Project/ ├── app.py # Main Streamlit application ├── requirem
 ```bash
 git clone [https://github.com/kevinyepez-1409/KneeAI-Project.git](https://github.com/kevinyepez-1409/KneeAI-Project.git)
 cd KneeAI-Project
+
+### 2. Install dependencies
+pip install -r requirements.txt
+### 3. Setup Models
+Ensure you have downloaded and placed KneeOA_temp_weights.h5 and extracted the KneeOA_GradCAM folder in the project root as described in the "Download" section above.
+### 4. Run the application
+streamlit run app.py
+The application will open automatically in your default web browser (usually at http://localhost:8501).
 ## 📊 Dataset
 The model was trained and validated using the **Knee Osteoarthritis Dataset with Severity Grading**, derived from the Osteoarthritis Initiative (OAI).
 - **Source:** [Kaggle Repository](https://www.kaggle.com/datasets/shashwatwork/knee-osteoarthritis-dataset-with-severity-grading)
 - **Classes:** Original 5-grade KL scale consolidated into 3 functional classes for this study.
-
 ## ⚠️ Disclaimer
 This tool is a research prototype intended for **academic and educational purposes only**. It is **not** a certified medical device and should not be used for primary diagnosis without expert clinical supervision.
 
 ## 📄 Citation
 If you use this code or model in your research, please cite our paper:
 > [Yepez Kevin], [Villacreses Emmily]. "A Web-Based Deep Learning System for Automatic Severity Classification of Knee Osteoarthritis Using Kellgren-Lawrence Grading." [Journal/Conference Name], 2025.
+
 
 
